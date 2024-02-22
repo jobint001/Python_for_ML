@@ -23,3 +23,18 @@ Unsupervised learning is a challenging and active research area in machine learn
 - **Lack of evaluation metrics:** Unlike supervised learning, where the performance of the model can be measured by comparing the predicted outputs with the true labels, unsupervised learning does not have a clear or objective way to evaluate the quality or accuracy of the results. Therefore, unsupervised learning often relies on human judgment or domain knowledge to validate or interpret the outcomes.
 - **Sensitivity to parameters and initialization:** Many unsupervised learning algorithms depend on the choice of parameters or initial values, such as the number of clusters, the distance metric, or the random seed. These parameters or initial values can affect the results and the convergence of the algorithms, and they may not be easy to determine or optimize.
 - **Scalability and complexity:** Unsupervised learning algorithms often have to deal with large and high-dimensional datasets, which can pose challenges for the computational efficiency and memory requirements of the algorithms. Moreover, some unsupervised learning algorithms can be complex or difficult to understand or explain, especially for non-experts or users.
+
+```python
+import time
+from sklearn.linear_model import LogisticRegression
+logreg=LogisticRegression()
+start=time.time()
+
+
+logreg.fit(spect_df,traget)
+end=time.time()
+
+
+traintime=end-start
+print('training time for logreg is:  ',traintime)
+```
