@@ -10,7 +10,7 @@ Machine learning is a branch of artificial intelligence (AI) focused on building
 - **Brain Tumor Detection:** CNNs can analyze brain scans to detect tumors.
 - **Chatbot Creation:** NLP allows for the creation of responsive chatbots.
 - **Fraud Detection:** Anomaly detection algorithms can identify suspicious credit card transactions.
-
+- **Autonomous Vehicles:** Self-driving cars use machine learning algorithms to interpret sensor data, allowing them to navigate roads, identify obstacles, and make split-second decisions. T
 ## Types of Machine Learning
 
 ### Supervised Learning
