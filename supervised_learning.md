@@ -1,4 +1,4 @@
-# Supervised Machine Learning: A Comprehensive Guide for College Students
+# Supervised Machine Learning
 
 ## Introduction
 
